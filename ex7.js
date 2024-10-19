@@ -1,6 +1,6 @@
 let numeros = [1,2,3,5,10,50,40,60];
 
-let maior = function (num) {
+let encontreMaiorNumero = function (num) {
     let num_maior;
 
     for(let i = 0; i < num.length; i++){
@@ -15,4 +15,4 @@ let maior = function (num) {
     return num_maior;
 }
 
-console.log(maior(numeros));
+console.log(encontreMaiorNumero(numeros));
